@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    background-image: linear-gradient(
+        to right bottom,
+        hsl(33deg 94% 53%),
+        rgb(48 184 246 / 80%)
+    ),
+    url('prop.jpg');
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 85% 89%, 0 100%);
+}
+
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.navMenu {
+    overflow: hidden;
+  background-color: transparent;
+  
+}
+
+.topNav {
+    font-weight : 700;
+}
+
+.img {
+    height: 20px;
+}
+
+.heading {
+    color: bisque;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-main {
+    display: block;
+    font-size: 60px;
+    letter-spacing: 35px;
+    font-weight: 700px;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+}
+
+.heading-sub {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 12.5px;
+    font-weight: 400;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
